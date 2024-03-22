@@ -3,3 +3,78 @@ languageCode: en-us
 title: Vedabahu
 
 theme: gokarna
+
+enableRobotsTXT: true
+
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      pre: "<span data-feather='home'></span>"
+      post: ""
+      weight: 1
+
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      pre: "<span data-feather='bookmark'></span>"
+      post: ""
+      weight: 1
+
+    - identifier: "projects"
+      name: "Projects"
+      url: "/projects/"
+      pre: "<span data-feather='code'></span>"
+      post: ""
+      weight: 1
+
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      pre: "<span data-feather='tag'></span>"
+      post: ""
+      weight: 1
+
+    - identifier: "github"
+      url: "https://github.com/Vedabahu/"
+      pre: "<span data-feather='github'></span>"
+      weight: 3
+
+    - identifier: "linkedin"
+      url: "https://www.linkedin.com/in/rutwik-s-670a772a8/"
+      pre: "<span data-feather='linkedin'></span>"
+
+    - identifier: "rss"
+      url: "/index.xml"
+      pre: "<span data-feather='rss'></span>"
+
+
+
+
+params:
+  avatarURL: "https://avatars.githubusercontent.com/u/79869936"
+  description: "The Sky above the Sky"
+  accentColor: "#fc037f"
+  ShowBackToTopButton: true
+  metaKeywords: [vedabahu, blog, resume, hugo]
+  showPostsOnHomePage: "recent"
+  footer: "Vedabahu"
+  dateFormat: "Mon, 02 Jan 2006" # found at https://pkg.go.dev/time#pkg-constants
+  togglePreviousAndNextButtons: "true"
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/rutwik-s-670a772a8/"
+    - name: "spotify"
+      url: "https://open.spotify.com/user/asuxtmcgi5pu4277693wv40zl?si=4770a7d207b64629"
+    - name: "email"
+      url: "mailto:23bcs112@iiitdwd.ac.in"
+    - name: "instagram"
+      url: "https://www.instagram.com/vedabahu/"
+
+
+markup:
+  tableOfContents
+  startLevel = 1
+  endLevel = 4
+  ordered = false
