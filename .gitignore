@@ -18,6 +18,5 @@ hugo.linux
 
 # Notes files that I use personally
 /content/posts/first-post.md
-/content/about.md
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo

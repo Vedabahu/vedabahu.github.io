@@ -5,6 +5,8 @@ title: Vedabahu
 theme: gokarna
 
 enableRobotsTXT: true
+enableEmoji: true
+pygmentsStyle: github-dark
 
 menu:
   main:
@@ -15,31 +17,38 @@ menu:
       post: ""
       weight: 1
 
+    - identifier: about
+      name: About
+      url: "/about"
+      pre: "<span data-feather='info'></span>"
+      post: ""
+      weight: 2
+
     - identifier: "posts"
       name: "Posts"
       url: "/posts/"
       pre: "<span data-feather='bookmark'></span>"
       post: ""
-      weight: 1
+      weight: 3
 
     - identifier: "projects"
       name: "Projects"
       url: "/projects/"
       pre: "<span data-feather='code'></span>"
       post: ""
-      weight: 1
+      weight: 4
 
     - identifier: "tags"
       name: "Tags"
       url: "/tags/"
       pre: "<span data-feather='tag'></span>"
       post: ""
-      weight: 1
+      weight: 5
 
     - identifier: "github"
       url: "https://github.com/Vedabahu/"
       pre: "<span data-feather='github'></span>"
-      weight: 3
+      weight: 6
 
     - identifier: "linkedin"
       url: "https://www.linkedin.com/in/rutwik-s-670a772a8/"
@@ -68,13 +77,21 @@ params:
     - name: "spotify"
       url: "https://open.spotify.com/user/asuxtmcgi5pu4277693wv40zl?si=4770a7d207b64629"
     - name: "email"
-      url: "mailto:23bcs112@iiitdwd.ac.in"
+      url: "mailto:rutwiks123@gmail.com"
     - name: "instagram"
       url: "https://www.instagram.com/vedabahu/"
 
 
 markup:
-  tableOfContents
-  startLevel = 1
-  endLevel = 4
-  ordered = false
+  tableOfContents:
+    startLevel: 1
+    endLevel: 4
+    ordered: false
+
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
