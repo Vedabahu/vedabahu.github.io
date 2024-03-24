@@ -8,4 +8,5 @@ type = "page"
 
 Here are a list of projects that I have completed and in different languages.
 
-- [Apollonian gasket fractal](/projects/apollonian-gasket-fractal)
+|[Apollonian gasket fractal](/projects/apollonian-gasket-fractal) | 24-03-2024 |
+|---|---|
