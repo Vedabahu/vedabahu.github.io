@@ -2,7 +2,7 @@
 title = 'Markdown Guide'
 date = 2024-03-23T19:46:32+05:30
 draft = false
-showTableOfContents = true
+showTableOfContents = false
 description = "A simple and fast Markdown Guide"
 type = "post"
 tags = ["blog", "markdown", "simple"]
@@ -12,7 +12,7 @@ This is a simple and fast paced, on point use of markdown and its syntax.
 
 You can use `html` in markdown but it is recomended not to do so.
 
-## Headings
+# Headings
 
 These are headings. Do not use them for a smaller font size.
 
@@ -32,31 +32,38 @@ These are headings. Do not use them for a smaller font size.
 ```
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 ## Paragraph
 
 Anything that is not a special element is a paragraph. It is written without any special formatting.
 
-## Basic formatting.
+## Basic formatting
 
 This is normal formatting.
+
 ```md
 *italics*
 **bold**
 ***bold and italics***
 [Link Text](link)
 ```
+
 *italics*
 **bold**
 ***bold and italics***
 [Link Text](https://example.com/)
 
-## Blockquotes
+## Blockquote
 
 ```md
 > This is a blockquote.
@@ -84,7 +91,7 @@ Code is written withing three back ticks "```".
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
-	printf("Hello World");
+    printf("Hello World");
 }
 ````
 
@@ -96,6 +103,7 @@ int main(int argc, char* argv[]) {
 1. code
 2. forces
 ```
+
 1. code
 2. forces
 
@@ -104,10 +112,11 @@ int main(int argc, char* argv[]) {
 ```md
 - Hello
 - World
-	- Nested Hello
-	- Nested world
+ - Nested Hello
+ - Nested world
 ```
+
 - Hello
 - World
-	- Nested Hello
-	- Nested world
+  - Nested Hello
+  - Nested world
