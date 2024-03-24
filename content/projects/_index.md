@@ -6,4 +6,6 @@ description = "A page where I display the projects that I built or worked on"
 type = "page"
 +++
 
-Nothing to see here yet!! I will add them as I make them.
+Here are a list of projects that I have completed and in different languages.
+
+- [Apollonian gasket fractal](/projects/apollonian-gasket-fractal)
